@@ -3,16 +3,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShopSolution.WebApp", "eShopSolution.WebApp\eShopSolution.WebApp.csproj", "{2EF7AB50-676B-4114-86FA-7C13F0D4D485}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopSolution.WebApp", "eShopSolution.WebApp\eShopSolution.WebApp.csproj", "{2EF7AB50-676B-4114-86FA-7C13F0D4D485}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4BA332B9-28BA-45DD-BD62-ACA71920AF50}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShopSolution.Data", "eShopSolution.Data\eShopSolution.Data.csproj", "{9A8F7DC4-14D6-4758-82EE-88DD207CA9A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopSolution.Data", "eShopSolution.Data\eShopSolution.Data.csproj", "{9A8F7DC4-14D6-4758-82EE-88DD207CA9A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShopSolution.Application", "eShopSolution.Application\eShopSolution.Application.csproj", "{9BB927D1-3A74-4AA5-A8B1-F7BAF1FE5433}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopSolution.Application", "eShopSolution.Application\eShopSolution.Application.csproj", "{9BB927D1-3A74-4AA5-A8B1-F7BAF1FE5433}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopSolution.Utilities", "eShopSolution.Utilities\eShopSolution.Utilities.csproj", "{561E259D-1DAB-4D33-BDFD-91B03B5A1C33}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopSolution.ViewModels", "eShopSolution.ViewModels\eShopSolution.ViewModels.csproj", "{102C32FD-3004-4C4E-97C2-A3B24B96500E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShopSolution.BackendApi", "eShopSolution.BackendApi\eShopSolution.BackendApi.csproj", "{C280BE14-FCD2-44B6-BCDB-2A17C5F4DCC3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +38,18 @@ Global
 		{9BB927D1-3A74-4AA5-A8B1-F7BAF1FE5433}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BB927D1-3A74-4AA5-A8B1-F7BAF1FE5433}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BB927D1-3A74-4AA5-A8B1-F7BAF1FE5433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{561E259D-1DAB-4D33-BDFD-91B03B5A1C33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{561E259D-1DAB-4D33-BDFD-91B03B5A1C33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{561E259D-1DAB-4D33-BDFD-91B03B5A1C33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{561E259D-1DAB-4D33-BDFD-91B03B5A1C33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{102C32FD-3004-4C4E-97C2-A3B24B96500E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{102C32FD-3004-4C4E-97C2-A3B24B96500E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{102C32FD-3004-4C4E-97C2-A3B24B96500E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{102C32FD-3004-4C4E-97C2-A3B24B96500E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C280BE14-FCD2-44B6-BCDB-2A17C5F4DCC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C280BE14-FCD2-44B6-BCDB-2A17C5F4DCC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C280BE14-FCD2-44B6-BCDB-2A17C5F4DCC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C280BE14-FCD2-44B6-BCDB-2A17C5F4DCC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
